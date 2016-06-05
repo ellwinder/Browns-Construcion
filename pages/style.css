@@ -1,0 +1,309 @@
+*{
+  font-family: arial;
+  padding: 0;
+  margin:0;
+}
+
+
+.border{
+  text-align: center;
+  height:55px;
+  background-color:#272727;
+  color: white;
+}
+.border a{
+                color: white;
+              }
+
+.border li {
+  padding: 20px  150px;
+  display: inline-block;
+}
+
+/*************HEADER ***************/
+
+header {
+  max-width: 100%;
+}
+.logo{
+  margin-left: 90px;
+  padding-top: 5px;
+  display: inline-block;
+}
+.logo img{
+  width: 250px;
+}
+
+nav {
+  max-width: 100%;
+  padding: 30px 50px 30px 0px;
+  float:right;
+}
+
+nav li{
+  font-size: .9em;
+  padding: 20px;
+  display: inline-block;
+}
+.gone{
+  display:initial;
+}
+
+
+.slideshow{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.slideshow-pictures{
+  height: 550px;
+}
+.pictures{
+  padding-top:30px; 
+  height: 550px;
+}
+
+.pictures h1 {
+  font-size: 4.5em;
+  padding-top: 180px;
+  text-align: center;
+  color: white;
+}
+
+
+.picture1{
+  background: #000 url(../pic/electric-board-black.jpg) no-repeat center / cover;
+}
+.picture2{
+  background: #000 url(../pic/electrician-blackman-black.jpg) no-repeat center / cover;
+}
+.picture3{
+  background: #000 url(../pic/electrical-wire-black.jpg) no-repeat center / cover;
+}
+
+
+/***********content**********/
+
+.big-content {
+  padding: 90px 50px;
+  text-align: center;
+}
+
+.big-content h2, .big-content h1{
+  margin: 10px 0px;
+  padding: 15px 0px;
+  color: #333;
+}
+
+.big-content h2{
+  font-size:2em;
+  font-weight: lighter;
+}
+.big-content h3{
+  padding: 10px 0 30px 0;
+}
+
+.services-content span, .big-content span{
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 2px solid #272727;
+}
+
+.big-content h5{
+  font-size: 1.7em;
+  padding: 20px 0px 10px 0;
+  font-weight: lighter;
+  color: #666;
+}
+
+.big-content p {
+  font-size: 1.3em;
+  text-align: justify;
+  border-left: 5px solid #272727;
+  padding-left: 20px;
+  margin: 60px 0px 50px ;
+  line-height: 35px; 
+  font-weight: 100;
+  color: #666;
+}
+
+.about-pictures{
+  padding: 0px;
+  height: 350px;
+  background: #000 url(../pic/electrician-socket-black.jpg) no-repeat center / cover;
+}
+
+.about-content h2{
+  margin-top:-20px;
+  padding-top:0px; 
+  
+}
+.services-pictures h1, .about-pictures h1, .contact-pictures h1{
+  font-size: 4.5em;
+  padding-top: 120px;
+  text-align: center;
+  color: white;
+}
+.services-pictures{
+  padding: 0px;
+  height: 350px;
+  background: #000 url(../pic/electrician-side-pic-black.jpg) no-repeat center / cover;
+}
+.services-content {
+  padding: 90px 0px;
+}
+
+
+.services-content h1{
+  text-align: center;
+
+}
+.services-content h3, .contact-content h3{
+  color: #333;
+  font-size:1.4em;
+  font-weight: lighter;
+  padding-top: 80px;
+  clear: both;
+}
+.services-content h3, .services-content h2{
+  text-align: center;
+  color: black;
+}
+.services-content h2{
+  font-size:2em;
+  font-weight: lighter;
+}
+
+.services-list{
+  margin: 0px;
+  font-size: 1.5em;
+  color: #333;
+  padding: 60px 0px;
+  width: 100%;
+  text-align: left;
+}
+
+.services-list1{
+  float: left;
+  margin: 0px 5%;
+  padding: 0px 5%;
+  width: 0px 30%;
+}
+
+.services-list2{
+  float: right;
+  margin: 0px 5%;
+  padding: 0px 5%;
+  width: 0px 30%;
+
+}
+
+.contact-pictures{
+  padding: 0px;
+  height: 350px;
+  background: #000 url(../pic/electric-board-black.jpg) no-repeat center / cover;
+}
+.service-area-img img{
+  padding-top: 50px;
+  width: 600px;
+  height: 400px;
+
+}
+.contact-pictures h5{
+  color: #333;
+  font-size:1.4em;
+}
+.contact-content h5{
+  font-size: 2em;
+  padding: 20px 0px;
+  color: #666;
+}
+
+.contact-content h4{
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding: 20px 0px;
+  color: #333;
+}
+.contact-content h1{
+  padding-bottom: 5px;
+
+}
+.contact-content h3{
+  font-size: 1.5em;
+  margin-top: -120px;
+}
+.contact-form{
+  width: 100%;
+  color: #333;
+  font-size: 1.3em;
+  margin-top: -80px;
+  padding:10px 0px 20px 300px ;
+}
+
+table{
+
+  width: 40%;
+}
+/**********footer************/
+
+.footer{
+  clear: both;
+  background-color: #272727;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer p {
+  font-size: 0.9em;
+}
+.footer p:first-child{
+  color: grey;
+}
+.footer p:last-child {
+  padding-top: 6px;
+  color: white;
+}
+/**********links*************/
+/*.telephone a:link, .telephone a:visited, .telephone a:hover{
+	color: #fff; 
+    text-decoration:none;
+        padding-bottom: 0px;
+  border-bottom: solid 0px #272727;
+}*/
+.telephone-content, .telephone-content:visited, .telephone-content a:active, .telephone-content a:hover  { /*for small screens */ 
+    color: #333; 
+    text-decoration:none;
+    padding-bottom: 0px;
+  	border-bottom: solid 0px #272727;
+}
+
+.border a:link, .border a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+a:visited{
+  color:black;
+  
+}
+
+ nav a:hover {
+  padding-bottom: 40px;
+  border-bottom: solid 4px #272727;
+  color: #272727;
+}
+
+ a:active {
+  color:white;
+}
+
+.logo a {
+  border:none;
+}
